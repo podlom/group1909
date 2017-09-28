@@ -1,0 +1,27 @@
+body{
+	background: white;
+}
+
+table{
+	font-family: Times New Roman;
+	width: 300 px;
+	border: 2 px solid white;
+	color: black;
+	border='2'; 
+	cellpadding="6";
+	bgcolor="#b0c0b4" rules='none' width='50%'
+}
+
+td {
+	padding: 5px;
+	font-size: 14px;
+}
+
+h2{
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+img{
+	overflow: hidden;
+}
