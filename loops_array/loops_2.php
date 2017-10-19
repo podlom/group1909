@@ -4,12 +4,12 @@
      * Вычислить р! (факториал)
      */
 
-    // пример - факториал 4!
-    $fact = 1;
+function factorial($p) {
+    if ($p === 0) return 1;
+    else return $p*factorial($p-1);
+}
 
-    for($num = 4; $num > 0; $num--)
-    {
-        $fact *= $num;
-    }
+    // пример - факториал 4!
+    $fact = factorial(4)
 
     echo ($fact);
